@@ -1,0 +1,309 @@
+<<<<<<< HEAD
+*{
+=======
+* {
+>>>>>>> cc6472a30043a3550994982c2da22d47e752248f
+    margin: 0;
+    border: 0;
+    padding: 0;
+    text-decoration: none;
+}
+@font-face {
+    font-family: "Open";
+    src: url(fonte/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+@font-face {
+    font-family: "RobotoB";
+    src: url(fonte/Roboto-Bold.ttf);
+}
+@font-face {
+    font-family: "RobotoR";
+    src: url(fonte/Roboto-Regular.ttf);
+}
+@font-face {
+    font-family: "PoppinsB";
+    src: url(fonte/Poppins-Bold.ttf);
+}
+@font-face {
+    font-family: "PoppinsR";
+    src: url(fonte/Poppins-Regular.ttf);
+}
+<<<<<<< HEAD
+=======
+
+>>>>>>> cc6472a30043a3550994982c2da22d47e752248f
+.azul {
+    background-color: #106EEA;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 100px;
+}
+.azul a {
+    color: white;
+    font-family: "Open";
+    font-size: 20px;
+}
+h1 {
+    font-family: "PoppinsB";
+    font-size: 45px;
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 100px;
+}
+.header a {
+    font-family: "Open";
+    color: black;
+    font-size: 22px;
+}
+.header nav {
+    display: flex;
+    justify-content: space-between;
+    width: 700px;
+}
+.inicio {
+    background-image: url(img/fundo.png);
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+<<<<<<< HEAD
+=======
+
+>>>>>>> cc6472a30043a3550994982c2da22d47e752248f
+}
+.inicio h1 {
+    font-size: 60px;
+}
+.inicio h4 {
+    font-family: "PoppinsR";
+    font-size: 40px;
+    font-weight: 300;
+}
+.inicio div {
+    text-align: center;
+<<<<<<< HEAD
+}
+.sobre {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 100px 0;
+}
+.sobre img {
+    width: 400px;
+}
+.sobre .conteudo {
+    width: 500px;
+    text-align: center;
+    margin-right: 100px;
+}
+.sobre .conteudo h2 {
+    font-family: "RObotoB";
+    font-size: 30px;
+}
+span {
+    color: #106EEA;
+}
+.sobre .conteudo p {
+    font-family: "Open";
+    font-size: 25px;
+    text-align: justify;
+}
+.caixa img {
+    width: 100px;
+}
+.caixa {
+    background-color: #f1f6fe;
+    border: 1px solid #8ca9ce;
+    width: 240px;
+    height: 200px;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 25px;
+}
+.dados {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.numero {
+    font-family: "Open";
+    font-weight: 800;
+    font-size: 30px;
+}
+.texto {
+    font-family: "RobotoR";
+    font-size: 25px;
+}
+.servico .produto p{
+    font-family: "RobotoB";
+    font-size: 25px;
+}
+.servico .produto{
+    border: 1px solid #8ca9ce;
+    height: 200px;
+    width: 275px;
+    margin: 50px 75px;
+    border-radius: 7px;
+}
+.todas, .produto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.produto p {
+    width: 230px;
+}
+.servico {
+    text-align: center;
+}
+.servico h2 {
+    font-family: "RobotoB";
+    font-size: 30px;
+}
+.servico p {
+    font-family: "Open";
+    font-size: 25px;
+    margin: 0 200px;
+}
+.equipe h2 {
+    font-family: "RobotoB";
+    font-size: 30px;
+}
+.equipe p {
+    font-family: "Open";
+    font-size: 25px;
+}
+.equipe {
+    text-align: center;
+}
+.pessoal img {
+    width: 250px;
+}
+.pessoas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.linha {
+    background-color: #1150a3;
+    height: 2px;
+    margin: 40px 0 80px;
+}
+.pessoal h5 {
+    font-family: "PoppinsB";
+    font-size: 25px;
+}
+.pessoal p {
+    font-family: "RobotoR";
+    font-size: 20px;
+}
+.pessoal {
+    border: 1px solid black;
+    border-radius: 7px;
+    margin: 30px 60px;
+}
+.contato h2 {
+    font-family: "RobotoB";
+    font-size: 30px;
+}
+.contato p {
+    font-family: "Open";
+    font-size: 25px;
+}
+.contato {
+    text-align: center;
+}
+.informacoes, .endereco {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.endereco {
+    flex-direction: column;
+    border: 1px solid #8ca9ce;
+    height: 400px;
+    width: 430px;
+    border-radius: 7px;
+    margin-right: 30px;
+}
+.endereco h4 {
+    font-family: "RobotoB";
+    font-size: 30px;
+}
+.endereco p {
+    font-family: "RobotoB";
+    font-size: 30px;
+    width: 300px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+input, textarea{
+    background-color: #e5e5e5;
+    color: black;
+    font-size: 30px;
+    border-radius: 10px;
+    margin: 0 20px 20px 0;
+    padding: 10px 7px;
+}
+input::placeholder, 
+textarea::placeholder {
+    color: #c1c1c1;
+    font-family: "RobotoB";
+}
+button {
+    background-color: #106EEA;
+    color: white;
+    font-family: "RobotoB";
+    font-size: 30px;
+    border-radius: 10px;
+    width: 300px;
+    padding: 7px 0;
+}
+textarea, .assunto {
+    width: 780px;
+}
+footer {
+    background-color: #1150a3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 300px;
+    padding: 0 200px;
+    margin-top: 100px;
+}
+footer h3 {
+    font-family: "Open";
+    color: white;
+    font-size: 30px;
+    font-weight: 300;
+}
+footer nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+footer nav a {
+    color: white;
+    font-family: "Open";
+    font-size: 25px
+}
+.infos {
+    margin: 40px 200px 80px; /*cima, lados, baixo*/
+=======
+>>>>>>> cc6472a30043a3550994982c2da22d47e752248f
+}
